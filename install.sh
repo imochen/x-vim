@@ -1,6 +1,3 @@
-# download plugin manager
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
 APP_NAME='x-vim'
 APP_PATH="$HOME/.x-vim"
 REPO_URI='ssh://git@lorna.imochen.com:3022/mochen/x-vim.git'
