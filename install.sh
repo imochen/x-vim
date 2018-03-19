@@ -135,8 +135,8 @@ variable_set "$HOME"
 program_must_exists "vim"
 program_must_exists "git"
 
-do_backup     "$HOME/.vim" \
-              "$HOME/.vimrc" \
+#do_backup     "$HOME/.vim" \
+#              "$HOME/.vimrc" \
 
 sync_repo     "$APP_PATH" \
               "$REPO_URI" \
