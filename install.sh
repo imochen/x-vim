@@ -1,6 +1,6 @@
 APP_NAME='x-vim'
 APP_PATH="$HOME/.x-vim"
-REPO_URI='ssh://git@lorna.imochen.com:3022/mochen/x-vim.git'
+REPO_URI='git@github.com:imochen/x-vim.git'
 REPO_BRANCH='master'
 
 PLUG_URI='https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
@@ -152,29 +152,3 @@ setup_plug
 
 msg             "\nThanks for installing $APP_PATH."
 msg             "© `date +%Y`"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
