@@ -1,6 +1,6 @@
 APP_NAME='x-vim'
 APP_PATH="$HOME/.x-vim"
-REPO_URI='git@github.com:imochen/x-vim.git'
+REPO_URI='https://github.com/imochen/x-vim.git'
 REPO_BRANCH='master'
 
 PLUG_URI='https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
