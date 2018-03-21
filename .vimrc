@@ -20,12 +20,12 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'scrooloose/nerdtree'
 Plug 'majutsushi/tagbar'
-Plug 'vim-airline/vim-airline'
 Plug 'mattn/emmet-vim'
 Plug 'kien/ctrlp.vim'
 Plug 'luochen1990/rainbow'
 Plug 'fatih/vim-go'
 Plug 'maralla/completor.vim'
+Plug 'scrooloose/nerdcommenter'
 
 call plug#end()
 
