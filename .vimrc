@@ -48,7 +48,7 @@ autocmd vimenter * Tagbar
 map <C-t> :TagbarToggle<CR>
 
 " emmet
-let g:user_emmet_leader_key='<Tab>'
+" let g:user_emmet_leader_key='<Tab>'
 
 " ctrlp
 let g:ctrlp_map = '<C-p>'
@@ -59,6 +59,7 @@ let g:rainbow_active = 1
 " completor
 let g:completor_gocode_binary = '/Users/mochen/go/bin/gocode'
 let g:completor_node_binary = '/usr/local/bin/node'
+inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 
 " vim-go
 let g:go_fmt_fail_silently = 0
