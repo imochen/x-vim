@@ -29,13 +29,6 @@ Plug 'scrooloose/nerdcommenter'
 
 call plug#end()
 
-" auto gopath
-if !empty(glob("src"))
-  let $GOPATH=getcwd()
-else
-  let $GOPATH=go#path#Detect()
-endif
-
 " nerdtree
 autocmd vimenter * NERDTree
 autocmd BufWritePost * NERDTreeFocus | execute 'normal R' | wincmd p
